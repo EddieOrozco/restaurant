@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Nav from './components/layout/Nav';
+import Jumbo from './components/pages/Jumbo';
+import Hours from './components/pages/Hours';
+import LunchSpecial from './components/pages/LunchSpecial';
+import HouseSpecial from './components/pages/HouseSpecial';
+import Catering from './components/pages/Catering';
+import Footer from './components/layout/Footer';
+import menuData from './components/data/menuData';
+import soupData from './components/data/soupData';
+import appData from './components/data/appData';
+
+export class App extends Component {
+  state = {
+    menuData,
+    soupData,
+    appData,
+  };
+  render() {
+    return (
+      <div className='App'>
+        <Nav />
+        <Jumbo />
+        <Hours />
+        <LunchSpecial />
+        <HouseSpecial />
+        <Catering />
+        <Footer />
+      </div>
+    );
+  }
 }
 
 export default App;
