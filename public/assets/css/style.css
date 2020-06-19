@@ -68,7 +68,7 @@ h6 {
   font-size: 15px;
   height: 50px;
   transition: all 0.5s;
-  /* color: rgba(255, 255, 255, 0.7); */
+  color: rgba(255, 255, 255, 0.7);
 }
 
 #topbar.topbar-scrolled {
@@ -96,7 +96,7 @@ h6 {
 
 #header.header-scrolled {
   top: 0;
-  /* background: rgba(26, 24, 22, 0.85); */
+  background: rgba(26, 24, 22, 0.85);
 }
 
 #header .logo h1 {
@@ -432,7 +432,7 @@ h6 {
 
 #hero h1 {
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   font-size: 4rem;
   font-weight: 700;
 }
@@ -444,9 +444,9 @@ h6 {
 #hero p {
   /* width: 80%; */
   -webkit-animation-delay: 0.4s;
-  font-size: 1.5rem;
+  font-size: 2rem;
   animation-delay: 0.4s;
-  margin: 0 auto 30px auto;
+  /* margin: 0 auto 30px auto; */
   color: #fff;
 }
 
