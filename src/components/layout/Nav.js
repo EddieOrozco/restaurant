@@ -8,7 +8,7 @@ class Nav extends Component {
           <div class='logo mr-auto'>
             <h1 class='text-light'>
               <a href='index.html'>
-                <span style={{ color: 'red', fontWeight: '500' }}>KW</span>
+                <span style={{ color: '#fff', fontWeight: '800' }}>KW</span>
               </a>
             </h1>
             {/* <!-- Uncomment below if you prefer to use an image logo --> */}
@@ -20,23 +20,23 @@ class Nav extends Component {
           <nav class='nav-menu d-none d-lg-block'>
             <ul>
               <li>
-                <a href='index.html' style={{ color: 'green' }}>
+                <a href='index.html' style={{ color: '#fff' }}>
                   Home
                 </a>
               </li>
 
               <li>
-                <a href='#menu' style={{ color: 'green' }}>
+                <a href='#menu' style={{ color: '#fff' }}>
                   Menu
                 </a>
               </li>
               <li>
-                <a href='#specials' style={{ color: 'green' }}>
+                <a href='#specials' style={{ color: '#fff' }}>
                   Specials
                 </a>
               </li>
               <li>
-                <a href='#contact' style={{ color: 'green' }}>
+                <a href='#contact' style={{ color: '#fff' }}>
                   Contact
                 </a>
               </li>

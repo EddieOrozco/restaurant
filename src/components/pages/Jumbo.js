@@ -16,36 +16,42 @@ class Jumbo extends Component {
             <div class='carousel-inner' role='listbox'>
               <div
                 class='carousel-item active'
-                // style={{
-                //   background:
-                //     'url(https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/recipes/coconut_fried_rice_recipe/650x350_coconut_fried_rice_recipe.jpg)',
-                //   backgroundSize: 'cover',
-                //   backgroundRepeat: 'no-repeat',
-                //   backgroundPosition: 'center',
-                // }}
-                style={{ background: 'rgb(255,253,208)' }}
+                style={{
+                  background:
+                    'url(https://duyt4h9nfnj50.cloudfront.net/resized/1536853137151-w2880-5e.jpg)',
+                  backgroundSize: 'cover',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center',
+                }}
+                // style={{ background: 'rgb(255,253,208)' }}
               >
-                <div class='carousel-container'>
-                  <div class='carousel-content'>
-                    <h1
-                      class='animated fadeInDown'
-                      style={{
-                        color: 'red',
-                        fontSize: '6rem',
-                        fontWeight: '800',
-                      }}
-                    >
-                      King's Wok
-                    </h1>
-                    <p class='animated fadeInUp' style={{ color: 'red' }}>
-                      Chinese Restaurant
-                    </p>
-                    <p class='animated fadeInUp' style={{ color: 'black' }}>
-                      Carry Out <span style={{ color: 'red' }}>&</span> Delivery
-                    </p>
+                <div
+                  style={{ background: 'rgba(0, 0, 0, 0.5)', height: '100vh' }}
+                >
+                  <div class='carousel-container'>
+                    <div class='carousel-content'>
+                      <h1
+                        class='animated fadeInDown'
+                        style={{
+                          color: '#fff',
+                          fontSize: '6rem',
+                          fontWeight: '800',
+                        }}
+                      >
+                        King's Wok
+                      </h1>
+                      <p class='animated fadeInUp' style={{ color: '#fff' }}>
+                        Chinese Restaurant
+                      </p>
+                      <p class='animated fadeInUp' style={{ color: '#fff' }}>
+                        Carry Out <span style={{ color: 'red' }}>&</span>{' '}
+                        Delivery
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
+              f
             </div>
           </div>
         </div>
