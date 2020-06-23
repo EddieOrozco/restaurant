@@ -5,13 +5,14 @@ import Nav from './components/layout/Nav';
 import Jumbo from './components/pages/Jumbo';
 import Hours from './components/pages/Hours';
 import LunchSpecials from './components/menu/LunchSpecials';
-import HouseSpecial from './components/menu/HouseSpecial';
+import HouseSpecials from './components/menu/HouseSpecials';
 import Catering from './components/pages/Catering';
 import Footer from './components/layout/Footer';
 import menuData from './components/data/menuData';
 import soupData from './components/data/soupData';
 import appData from './components/data/appData';
 import lunchData from './components/data/lunchData';
+import houseData from './components/data/houseData';
 
 export class App extends Component {
   state = {
@@ -27,7 +28,7 @@ export class App extends Component {
         <Jumbo />
         <Hours />
         <LunchSpecials lunchData={lunchData} />
-        <HouseSpecial />
+        <HouseSpecials houseData={houseData} />
         <Catering />
         <Footer />
       </div>

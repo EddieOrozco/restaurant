@@ -13,10 +13,11 @@ export const LunchSpecials = ({ lunchData }) => {
             <p>Served with Egg Roll (1)</p>
             <p>Shrimp Fried Rice</p>
           </div>
-
-          {lunchData.map((lunch) => (
-            <LunchSpecial key={lunch.id} lunch={lunch} />
-          ))}
+          <div class='row menu-container'>
+            {lunchData.map((lunch) => (
+              <LunchSpecial key={lunch.id} lunch={lunch} />
+            ))}
+          </div>
         </div>
       </section>
     </div>

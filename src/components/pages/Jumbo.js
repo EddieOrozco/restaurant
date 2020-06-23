@@ -51,7 +51,6 @@ class Jumbo extends Component {
                   </div>
                 </div>
               </div>
-              f
             </div>
           </div>
         </div>

@@ -8,10 +8,10 @@ const lunchData = [
   },
   {
     id: 2,
-    itemNameOther: 'Egg Foo Young',
-    itemDesOther: 'Chicken or Beef or Shrimp',
-    itemPriceSmallOther: '$6.50',
-    itemPriceLargeOther: '',
+    itemName: 'Egg Foo Young',
+    itemDes: 'Chicken or Beef or Shrimp',
+    itemPriceSmall: '$6.50',
+    itemPriceLarge: '',
   },
   {
     id: 3,
@@ -22,10 +22,10 @@ const lunchData = [
   },
   {
     id: 4,
-    itemNameOther: 'Chicken or Beef Kow',
-    itemDesOther: '',
-    itemPriceSmallOther: '$6.50',
-    itemPriceLargeOther: '',
+    itemName: 'Chicken or Beef Kow',
+    itemDes: '',
+    itemPriceSmall: '$6.50',
+    itemPriceLarge: '',
   },
   {
     id: 5,
