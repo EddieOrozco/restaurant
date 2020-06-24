@@ -7,7 +7,10 @@ export const LunchSpecial = ({
     <div>
       <div class='col-lg-6 menu-item filter-starters'>
         <div class='menu-content'>
-          <a href='#'>{itemName}</a>
+          <a href='#'>
+            {itemName}
+            <i class='fas fa-pepper-hot' style={{ color: 'red' }}></i>
+          </a>
           <span>Small {itemPriceSmall}, </span>
           <span>Large {itemPriceLarge}</span>
         </div>

@@ -9,8 +9,6 @@ const HouseSpecials = ({ houseData }) => {
           <h2>
             House <span>Combination</span>
           </h2>
-          <p>Served with Egg Roll (1)</p>
-          <p>Shrimp Fried Rice</p>
         </div>
         <div class='row menu-container'>
           {houseData.map((house) => (
