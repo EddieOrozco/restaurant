@@ -1,9 +1,4 @@
-const loMainData = [
-  {
-    itemsCategory: 'Chop Suey or Chow Mein',
-    itemComp: 'Pan Fried Noodle(Large Only) or Soft Noodle',
-    itemCompTwo: '',
-  },
+const loMeinData = [
   {
     id: 1,
     itemName: 'Chicken',
@@ -48,4 +43,4 @@ const loMainData = [
   },
 ];
 
-export default loMainData;
+export default loMeinData;

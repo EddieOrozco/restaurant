@@ -1,14 +1,11 @@
 import React from 'react';
 
-const Menu = ({ a: { itemName, itemDes, itemPrice, itemQuantity } }) => {
+export const FamDinner = ({ famDinner: { itemName, itemDes, itemPrice } }) => {
   return (
     <div>
       <div class='col-lg-6 menu-item filter-starters'>
         <div class='menu-content'>
-          <a href='#'>
-            {itemName}
-            {itemQuantity}
-          </a>
+          <a href='#'>{itemName}</a>
           <span>{itemPrice} </span>
         </div>
         <div class='menu-ingredients'>{itemDes}</div>
@@ -17,4 +14,4 @@ const Menu = ({ a: { itemName, itemDes, itemPrice, itemQuantity } }) => {
   );
 };
 
-export default Menu;
+export default FamDinner;

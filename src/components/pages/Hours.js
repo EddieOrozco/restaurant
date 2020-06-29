@@ -150,6 +150,7 @@ class Hours extends Component {
                       </div>
                     </li>
                   </ul>
+                  <h3>We Cater</h3>
                 </div>
               </div>
             </div>

@@ -1,8 +1,5 @@
 const soupData = [
   {
-    itemsCategory: 'Soup',
-  },
-  {
     id: 1,
     itemName: 'Egg Drop Soup',
     itemPriceS: '$3.00',

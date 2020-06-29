@@ -1,9 +1,5 @@
 const seafoodData = [
   {
-    itemsCategory: 'Seafood',
-    itemComp: 'Served with Steam Rice',
-  },
-  {
     id: 1,
     itemName: 'Cashew Shrimp',
     itemPriceS: '$6.50',

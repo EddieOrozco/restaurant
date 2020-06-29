@@ -1,5 +1,4 @@
 const appData = [
-  { itemsCategory: 'Appetizers' },
   {
     id: 1,
     itemName: 'Egg Roles',

@@ -1,10 +1,5 @@
 const famDinnerData = [
   {
-    itemsCategory: 'Chop Suey or Chow Mein',
-    itemComp: '($1 extra for substitution)',
-    itemCompTwo: '',
-  },
-  {
     id: 1,
     itemName: 'Dinner For Two',
     itemPrice: '$26.95',

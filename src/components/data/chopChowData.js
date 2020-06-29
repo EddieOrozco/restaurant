@@ -1,10 +1,5 @@
 const chopChowData = [
   {
-    itemsCategory: 'Chop Suey or Chow Mein',
-    itemComp: 'Served with Steam Rice',
-    itemCompTwo: 'Served with Crispy Noodle',
-  },
-  {
     id: 1,
     itemName: 'Chicken',
     itemPriceS: '$6.00',

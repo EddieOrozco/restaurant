@@ -1,9 +1,5 @@
 const porkData = [
   {
-    itemsCategory: 'Pork',
-    itemComp: 'Served with Steam Rice',
-  },
-  {
     id: 1,
     itemName: 'B.B.Q Pork Kow',
     itemPriceS: '$6.50',

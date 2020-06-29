@@ -1,10 +1,5 @@
 const otherData = [
   {
-    itemsCategory: 'Chop Suey or Chow Mein',
-    itemComp: 'Pan Fried Noodle(Large Only) or Soft Noodle',
-    itemCompTwo: '',
-  },
-  {
     id: 1,
     itemName: 'Extra Meat',
     itemPriceS: '$3.00',

@@ -1,8 +1,5 @@
 const friedRiceData = [
   {
-    itemsCategory: 'Fried Rice',
-  },
-  {
     id: 1,
     itemName: 'Shrimp',
     itemPriceS: '$5.00',

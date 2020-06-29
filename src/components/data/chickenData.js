@@ -1,9 +1,5 @@
 const chickenData = [
   {
-    itemsCategory: 'Chicken',
-    itemComp: 'Served with Steam Rice',
-  },
-  {
     id: 1,
     itemName: 'Cashew Chicken',
     itemPriceS: '$5.85',

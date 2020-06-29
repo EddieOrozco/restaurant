@@ -1,9 +1,5 @@
 const veggieData = [
   {
-    itemsCategory: 'Vegetables',
-    itemComp: 'Served with Steam Rice',
-  },
-  {
     id: 1,
     itemName: 'Vegetable Delight',
     itemPriceS: '$5.50',

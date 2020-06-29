@@ -1,17 +1,13 @@
 const eggFooData = [
   {
-    itemsCategory: 'Egg Foo Young',
-    itemComp: 'Served with Steam Rice',
-    itemQuantityS: '(2) Patties',
-    itemQuantityL: '(4) Patties',
-  },
-  {
     id: 1,
     itemName: 'Shrimp',
-
     itemPriceS: '$5.00',
     itemPriceL: '$7.50',
     itemDes: '',
+    itemComp: 'Served with Steam Rice',
+    itemQuantityS: '(2) Patties',
+    itemQuantityL: '(4) Patties',
   },
   {
     id: 2,
@@ -78,4 +74,4 @@ const eggFooData = [
   },
 ];
 
-export default friedRiceData;
+export default eggFooData;

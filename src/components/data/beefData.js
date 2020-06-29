@@ -1,9 +1,5 @@
 const beffData = [
   {
-    itemsCategory: 'Beef',
-    itemComp: 'Served with Steam Rice',
-  },
-  {
     id: 1,
     itemName: 'Cashew Beef',
     itemPriceS: '$6.50',
