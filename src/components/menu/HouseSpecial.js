@@ -1,20 +1,20 @@
 import React from 'react';
 
-export const LunchSpecial = ({
-  house: { itemName, itemDes, itemPriceSmall, itemPriceLarge },
+const LunchSpecial = ({
+  house: { itemName, itemDes, itemPriceSmall, itemPriceLarge, isHot },
 }) => {
   return (
     <div>
-      <div class='col-lg-6 menu-item filter-starters'>
-        <div class='menu-content'>
-          <a href='#'>
+      <div className='col-lg-6 menu-item filter-starters'>
+        <div className='menu-content'>
+          <h6>
             {itemName}
-            <i class='fas fa-pepper-hot' style={{ color: 'red' }}></i>
-          </a>
+            <i className='fas fa-pepper-hot' style={{ color: 'red' }}></i>
+          </h6>
           <span>Small {itemPriceSmall}, </span>
           <span>Large {itemPriceLarge}</span>
         </div>
-        <div class='menu-ingredients'>{itemDes}</div>
+        <div className='menu-ingredients'>{itemDes}</div>
       </div>
     </div>
   );

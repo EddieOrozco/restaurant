@@ -1,39 +1,40 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Nav extends Component {
   render() {
     return (
-      <header id='header' class='fixed-top d-flex align-items-center'>
-        <div class='container d-flex align-items-center'>
-          <div class='logo mr-auto'>
-            <h1 class='text-light'>
-              <a href='index.html'>
+      <header id='header' className='fixed-top d-flex align-items-center'>
+        <div className='container d-flex align-items-center'>
+          <div className='logo mr-auto'>
+            <h1 className='text-light'>
+              <Link to='/'>
                 <span style={{ color: '#fff', fontWeight: '800' }}>KW</span>
-              </a>
+              </Link>
             </h1>
             {/* <!-- Uncomment below if you prefer to use an image logo --> */}
             {/* <a href='index.html'>
-              <img src='assets/img/kingwok.png' alt='' class='img-fluid' />
+              <img src='assets/img/kingwok.png' alt='' className='img-fluid' />
             </a> */}
           </div>
 
-          <nav class='nav-menu d-none d-lg-block'>
+          <nav className='nav-menu d-none d-lg-block'>
             <ul>
               <li>
-                <a href='index.html' style={{ color: '#fff' }}>
+                <Link to='/' style={{ color: '#fff' }}>
                   Home
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href='#menu' style={{ color: '#fff' }}>
+                <Link to='/menu' style={{ color: '#fff' }}>
                   Menu
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='#specials' style={{ color: '#fff' }}>
+                <Link to='/specials' style={{ color: '#fff' }}>
                   Specials
-                </a>
+                </Link>
               </li>
               <li>
                 <a href='#contact' style={{ color: '#fff' }}>
@@ -42,7 +43,6 @@ class Nav extends Component {
               </li>
             </ul>
           </nav>
-          {/* <!-- .nav-menu --> */}
         </div>
       </header>
     );

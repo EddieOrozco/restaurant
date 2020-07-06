@@ -1,21 +1,23 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 class Jumbo extends Component {
   render() {
     return (
       <section id='hero'>
-        <div class='hero-container'>
+        <div className='hero-container'>
           <div
             id='heroCarousel'
-            class='carousel slide carousel-fade'
+            className='carousel slide carousel-fade'
             data-ride='carousel'
           >
-            <ol class='carousel-indicators' id='hero-carousel-indicators'></ol>
+            <ol
+              className='carousel-indicators'
+              id='hero-carousel-indicators'
+            ></ol>
 
-            <div class='carousel-inner' role='listbox'>
+            <div className='carousel-inner' role='listbox'>
               <div
-                class='carousel-item active'
+                className='carousel-item active'
                 style={{
                   background:
                     'url(https://duyt4h9nfnj50.cloudfront.net/resized/1536853137151-w2880-5e.jpg)',
@@ -28,10 +30,10 @@ class Jumbo extends Component {
                 <div
                   style={{ background: 'rgba(0, 0, 0, 0.5)', height: '100vh' }}
                 >
-                  <div class='carousel-container'>
-                    <div class='carousel-content'>
+                  <div className='carousel-container'>
+                    <div className='carousel-content'>
                       <h1
-                        class='animated fadeInDown'
+                        className='animated fadeInDown'
                         style={{
                           color: '#fff',
                           fontSize: '6rem',
@@ -40,10 +42,16 @@ class Jumbo extends Component {
                       >
                         King's Wok
                       </h1>
-                      <p class='animated fadeInUp' style={{ color: '#fff' }}>
+                      <p
+                        className='animated fadeInUp'
+                        style={{ color: '#fff' }}
+                      >
                         Chinese Restaurant
                       </p>
-                      <p class='animated fadeInUp' style={{ color: '#fff' }}>
+                      <p
+                        className='animated fadeInUp'
+                        style={{ color: '#fff' }}
+                      >
                         Carry Out <span style={{ color: 'red' }}>&</span>{' '}
                         Delivery
                       </p>

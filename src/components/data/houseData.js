@@ -6,6 +6,7 @@ const houseData = [
       'Chunks of boneless chicken deep fried and sauteed with special sauce coating.',
     itemPriceSmall: '$6.00',
     itemPriceLarge: '$9.25',
+    isHot: 'true',
   },
   {
     id: 2,
@@ -21,6 +22,7 @@ const houseData = [
     itemDes: 'Deep fried till crispy, served with our delicate orange sauce.',
     itemPriceSmall: '$6.00',
     itemPriceLarge: '$9.25',
+    isHot: 'true',
   },
   {
     id: 4,

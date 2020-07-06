@@ -3,15 +3,15 @@ import React from 'react';
 const Menu = ({ a: { itemName, itemDes, itemPrice, itemQuantity } }) => {
   return (
     <div>
-      <div class='col-lg-6 menu-item filter-starters'>
-        <div class='menu-content'>
-          <a href='#'>
+      <div className='col-lg-6 menu-item filter-starters'>
+        <div className='menu-content'>
+          <h6>
             {itemName}
             {itemQuantity}
-          </a>
+          </h6>
           <span>{itemPrice} </span>
         </div>
-        <div class='menu-ingredients'>{itemDes}</div>
+        <div className='menu-ingredients'>{itemDes}</div>
       </div>
     </div>
   );
